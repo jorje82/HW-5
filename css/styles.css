@@ -229,7 +229,7 @@ border-radius: 4px;
   top: 0;
   left: 0;
   transform: translateY(100%);
-  transition: transform var(--animation);
+  transition:transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .overlay-text {
   font-family: 'Roboto', sans-serif;
